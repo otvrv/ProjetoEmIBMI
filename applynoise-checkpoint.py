@@ -12,7 +12,7 @@ modalidades = ['abdomen', 'chest', 'derma']
 
 noise_types = {
     'gauss': [0.001, 0.01],  # baixo, alto
-    'poisson': ['low', 'high'],  # mantido
+    'poisson': ['low', 'high'],  # baixo, alto
     's&p': [0.002, 0.01]  # baixo, alto
 }
 

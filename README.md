@@ -14,14 +14,11 @@ Desenvolver um modelo de deep learning capaz de detectar e classificar automatic
 
 DATASET
 
-Foram utilizadas bases públicas do MedMNIST, um repositório de imagens médicas otimizadas para aprendizado de máquina:
-DermaMNIST: imagens dermatológicas.
-PneumoniaMNIST: imagens de raio-X torácico com pneumonia.
-OrganCMNIST: imagens segmentadas de órgãos internos.
+Foram utilizados datasets públicos do MedMNIST, um repositório de imagens médicas otimizadas para aprendizado de máquina, e Kaggle
 
 ABORDAGEM
 
 Framework principal: TensorFlow/Keras
-Pré-processamento com ImageDataGenerator (normalização e split)
+Pré-processamento com ImageDataGenerator
 Dados organizados em batches para treinamento eficiente
-Exploração futura: redes convolucionais (CNNs), classificação multiclasses, augmentação de dados e aplicação de métricas de desempenho
+Redes convolucionais (CNNs), classificação multiclasses, augmentação de dados e aplicação de métricas de desempenho
